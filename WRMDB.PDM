@@ -1,0 +1,119 @@
+[Root]
+Most Recent Package=WRM2DB
+
+
+[Package|WRM2DB|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\MEW-ASUS\Desktop\WRM2\Package
+
+[Package|WRM2DB|Configure DAO ISAMs]
+Applicable=No
+
+[Package|WRM2DB|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|WRM2DB|Files Found]
+
+[Package|WRM2DB|Files Released]
+
+[Package|WRM2DB|Missing Dependency Information]
+C:\Windows\SysWOW64\msstdfmt.dll=
+C:\Program Files (x86)\Common Files\system\ado\msado25.tlb=
+
+[Package|WRM2DB|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\Comdlg32.ocx=
+C:\Windows\SysWOW64\RICHTX32.OCX=
+C:\Windows\SysWOW64\COMCT332.OCX=
+C:\Windows\SysWOW64\mscomct2.ocx=
+C:\Windows\SysWOW64\MSCOMCTL.OCX=
+
+[Package|WRM2DB|Files Added]
+C:\Users\MEW-ASUS\Desktop\WRM2\wrm2.mdb=
+
+[Package|WRM2DB|Files Removed]
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+c:\program files (x86)\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|WRM2DB|Files In Project]
+C:\Users\MEW-ASUS\Desktop\WRM2\WRMDB.exe=Yes
+C:\Windows\System32\msvbvm60.dll=No
+C:\Windows\System32\oleaut32.dll=No
+C:\Windows\System32\olepro32.dll=No
+C:\Windows\System32\asycfilt.dll=No
+C:\Windows\System32\stdole2.tlb=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\Program Files (x86)\Common Files\system\ado\msado25.tlb=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Windows\SysWOW64\mscomct2.ocx=Yes
+C:\Windows\SysWOW64\COMCT332.OCX=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\RICHTX32.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Windows\SysWOW64\Comdlg32.ocx=Yes
+C:\Windows\SysWOW64\MSDBRPTR.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Users\MEW-ASUS\Desktop\WRM2\wrm2.mdb=Yes
+
+[Package|WRM2DB|Configure Registry Files]
+Applicable=No
+
+[Package|WRM2DB|Configure Remote Servers]
+Applicable=No
+
+[Package|WRM2DB|Install Locations]
+C:\Users\MEW-ASUS\Desktop\WRM2\WRMDB.exe=$(AppPath)
+C:\Program Files (x86)\Common Files\system\ado\msado25.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\mscomct2.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\COMCT332.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\Comdlg32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\MEW-ASUS\Desktop\WRM2\wrm2.mdb=$(AppPath)
+
+[Package|WRM2DB|Configure Shared Files]
+Applicable=Yes
+C:\Users\MEW-ASUS\Desktop\WRM2\WRMDB.exe=No
+C:\Users\MEW-ASUS\Desktop\WRM2\wrm2.mdb=Yes
+
+[Package|WRM2DB|Distribution]
+Type=single
+Size=
+Title=WRM Database & Report Manager
+
+[Package|WRM2DB|IconGroups]
+Group0=WRM Database & Report Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|WRM2DB|WRM Database & Report Manager]
+Icon1=WRMDB.exe
+Title1=WRM Database & Report Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|WRM2DB|Package]
+PackageFolder=C:\Users\MEW-ASUS\Desktop\WRM2\Package
+ProjectFolder=C:\Users\MEW-ASUS\Desktop\WRM2
+ServerSideCab=
+File1=C:\Users\MEW-ASUS\Desktop\WRM2\Package\setup.exe
+File2=C:\Users\MEW-ASUS\Desktop\WRM2\Package\Setup.Lst
+File3=C:\Users\MEW-ASUS\Desktop\WRM2\Package\WRMDB.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
